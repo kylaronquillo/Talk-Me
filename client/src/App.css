@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded{
+    width: 800px;
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    width: 15dvh;
+    border: none;
+    background-color: transparent;
+}
+
+.appname{
+    font-family: 'Kristen ITC';
+    font-size: 12dvh;
+    color: #371A46;
+}
+
+.quote{
+    font: 'Kulim Park';
+    font-size: 3dvh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2dvh;
+}
+
+.btn.btn-dark {
+    background-color: #371A46;
+    color: white;
+    border-radius: 15px;
+}
+
+.aboutText{
+    font: 'Kulim Park';
+    font-size: 3dvh;
+    text-align: justify;
+}
+
+.myPic{
+    width: 180px;
+}
+
+.container-speak{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification{
+    font-style: italic;
+
+}
+
+.text-transcript{
+    height: 500px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E2DFDF;
+    margin: 20px;
+}
+
+.font-transcript{
+    font-size: 3dvh;
+}
+
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mic-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    margin: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
