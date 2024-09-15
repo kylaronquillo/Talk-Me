@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .container{
     display: flex;
     align-items: center;
@@ -53,6 +57,14 @@ button{
 }
 
 .container-speak{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-notes{
     margin: 20px;
     display: flex;
     flex-direction: column;

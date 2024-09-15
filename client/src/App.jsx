@@ -5,6 +5,7 @@ import "regenerator-runtime/runtime";
 import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Speak from "./components/Speak";
+import Notes from "./components/Notes";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Welcome />} />
           <Route path="about" element={<About />} />
           <Route path="speak" element={<Speak />} />
+          <Route path="notes" element={<Notes />} />
         </Routes>
       </Router>
     </main>

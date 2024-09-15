@@ -31,10 +31,11 @@ const Welcome = () => {
               {"Speak"}
             </button>
           </Link>
-          <button type="button" class="btn btn-dark">
-            {" "}
-            Notes
-          </button>
+          <Link to="/notes">
+            <button type="button" class="btn btn-dark">
+              {"Notes"}
+            </button>
+          </Link>
         </div>
       </div>
     </div>
